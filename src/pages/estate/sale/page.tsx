@@ -1,3 +1,9 @@
 import React from "react";
 
-export const EstateSalePage = () => <h1>Hello from Estate Sale Page</h1>;
+import { MainTemplate } from "@ui/templates";
+
+export const EstateSalePage = () => (
+  <MainTemplate header={<h1>Hello from header</h1>}>
+    <h1>Hello estate sale page!</h1>
+  </MainTemplate>
+);

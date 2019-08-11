@@ -1,3 +1,9 @@
 import React from "react";
 
-export const HomePage = () => <h1>Hello from home page :)</h1>;
+import { MainTemplate } from "@ui/templates";
+
+export const HomePage = () => (
+  <MainTemplate>
+    <h1>Hello world!</h1>
+  </MainTemplate>
+);
