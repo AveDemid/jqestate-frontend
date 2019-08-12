@@ -29,9 +29,11 @@ export default {
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx"],
     alias: {
+      "@api": path.resolve(__dirname, "src/api"),
       "@features": path.resolve(__dirname, "src/features"),
-      "@ui": path.resolve(__dirname, "src/ui"),
-      "@lib": path.resolve(__dirname, "src/lib")
+      "@lib": path.resolve(__dirname, "src/lib"),
+      "@pages": path.resolve(__dirname, "src/pages"),
+      "@ui": path.resolve(__dirname, "src/ui")
     }
   },
   devServer: {
