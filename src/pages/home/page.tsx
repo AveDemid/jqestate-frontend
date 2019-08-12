@@ -1,10 +1,13 @@
 import React from "react";
 
+import { ContainerFluid } from "@ui/atoms";
 import { MainTemplate } from "@ui/templates";
 import { Header } from "@features/common";
 
 export const HomePage = () => (
   <MainTemplate header={<Header />}>
-    <h1>Hello world!</h1>
+    <ContainerFluid>
+      <h1>Главная</h1>
+    </ContainerFluid>
   </MainTemplate>
 );

@@ -17,17 +17,13 @@ export const Header = () => (
           <MenuLink to="/estate/sale">Продажа</MenuLink>
         </MenuItem>
         <MenuItem>
-          <MenuLink to="/" exact>
-            Аренда
-          </MenuLink>
+          <MenuLink to="/estate/rent">Аренда</MenuLink>
         </MenuItem>
         <MenuItem>
-          <MenuLink to="/" exact>
-            Поселки
-          </MenuLink>
+          <MenuLink to="/estate/cottage-villages">Поселки</MenuLink>
         </MenuItem>
         <MenuItem>
-          <MenuLink to="/" exact>
+          <MenuLink to="/about" exact>
             О компании
           </MenuLink>
         </MenuItem>
